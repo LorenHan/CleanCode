@@ -6,8 +6,8 @@
 class Rectangle : public QObject {
     Q_OBJECT
 public:
-    static Rectangle *WithWidth(QObject *parent, double width); // 静态工厂方法
-    static Rectangle *WithWidthAndHeight(QObject *parent, double width, double height); // 静态工厂方法
+    static Rectangle *withWidth(QObject *parent, double width); // 静态工厂方法
+    static Rectangle *withWidthAndHeight(QObject *parent, double width, double height); // 静态工厂方法
     void Display() const;
 
 private:

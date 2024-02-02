@@ -5,7 +5,7 @@ Rectangle::Rectangle(QObject *parent)
     : QObject{parent}
 {}
 
-Rectangle *Rectangle::WithWidth(QObject *parent, double width)
+Rectangle *Rectangle::withWidth(QObject *parent, double width)
 {
     Rectangle *instance = new Rectangle(parent);
     instance->width = width;
@@ -13,7 +13,7 @@ Rectangle *Rectangle::WithWidth(QObject *parent, double width)
     return instance;
 }
 
-Rectangle *Rectangle::WithWidthAndHeight(QObject *parent, double width, double height)
+Rectangle *Rectangle::withWidthAndHeight(QObject *parent, double width, double height)
 {
     Rectangle *instance = new Rectangle(parent);
     instance->width = width;

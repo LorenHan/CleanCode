@@ -6,8 +6,8 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    Rectangle *r1 = Rectangle::WithWidth(nullptr, 5.0);
-    Rectangle *r2 = Rectangle::WithWidthAndHeight(nullptr, 5.0, 10.0);
+    Rectangle *r1 = Rectangle::withWidth(nullptr, 5.0);
+    Rectangle *r2 = Rectangle::withWidthAndHeight(nullptr, 5.0, 10.0);
 
     r1->Display();
     r2->Display();
